@@ -8,7 +8,7 @@ When trying to lose weight, it can be easy to get lost in all the jargon and onl
 
 ### Design
 
-![DrawnInterface]()
+![DrawnInterface](CaloriesOnlyInterfaceDesign.jpg)
 
 ### Key Features
 
