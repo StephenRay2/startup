@@ -34,5 +34,16 @@ I am going to use the required technologies in the following ways:
 - **DB/Login** - Store users and caloric data in a database, registers and log in users, and credentials are securely stored in a database.
 - **WebSocket** - Sends goal and plan updates and milestones to friends of the user.
 
+HTML Deliverable:
+
+Created html files and basic outlines for:
+    - index.html
+    - info.html
+    - home.html
+    - friends.html
+    - statistics.html
+    - common_foods.html
+
+Linked pages together with a nav bar which will be a hamburger style menu in the future.
 
 
