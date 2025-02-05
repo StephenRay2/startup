@@ -20,17 +20,20 @@
 
     </header>
 <body>
-    <h2>Let's Get Started!</h2>
-    <div><form>Age: <input type="number" id="quantity" name="quantity" min="18" max="99"></form>
-        <label for="sex">Sex:</label>
+    <h2 class="infoHeader">Let's Get Started!</h2>
+    <div><form class="infoDiv">Age: <input type="number" id="quantity" name="quantity" min="18" max="99"></form>
+        <br>
+        <div class="infoDiv"> <label for="sex">Sex:</label>
         <select id="sex" name="sex">
             <option value=""></option>
             <option value="female">Female</option>
             <option value="male">Male</option>
         </select>
+        </div>
         <br>
+        <div class="infoDiv">
         <label for="height">Height: </label>
-        <select id="sex" name="sex">
+        <select id="height" name="height">
             <option value=""></option>
             <option value="4'0"">4'0"</option>
             <option value="4'1"">4'1"</option>
@@ -72,7 +75,10 @@
             <option value="7'1"">7'1"</option>
             <option value="7'2"">7'2"</option>
         </select>
+        </div>
+        <br>
         <div>
+            <div class="infoDiv">
             <label for="activity">Activity Level:</label>
             <select id="activity" name="activity">
                 <option value=""></option>
@@ -82,16 +88,23 @@
                 <option value="active">Active (6-7 days per week)</option>
                 <option value="very_active">Very Active (intense daily exercise)</option>
             </select>
+        </div>
+    
             <br>
-        
+         <div class="infoDiv">
             <label for="starting_weight">Starting Weight (lbs):</label>
             <input type="number" id="starting_weight" name="starting_weight" min="50" max="600">
             <br>
-        
+            <br>
+            <br>
+        </div>
+        <div class="infoDiv">
             <label for="goal_weight">Goal Weight (lbs):</label>
             <input type="number" id="goal_weight" name="goal_weight" min="50" max="600">
             <br>
-        
+            <br>
+        </div>
+        <div class="infoDiv">
             <label for="plan_intensity">Plan Intensity:</label>
             <select id="plan_intensity" name="plan_intensity">
                 <option value=""></option>
@@ -100,7 +113,12 @@
                 <option value="aggressive">Aggressive (2 lbs per week)</option>
             </select>
             <br>
+            <br>
+        </div>
+        <div class="infoDiv">
+            <br>
             <input type="button" onclick="home.html" value="Submit">
+        </div>
         </div>
         
 
