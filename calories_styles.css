@@ -1,0 +1,48 @@
+header {
+    display:flex;
+    color:white;
+    background-color: Black;
+}
+
+.flex-container{
+    width: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    display:flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#input-flex-container{
+    display:flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+
+#mainLogo{
+    margin-top: 5em;
+}
+
+body {
+    color: white;
+    background-color:black;
+}
+
+nav{
+    color:white
+}
+
+div{
+    background-color: black
+}
+
+.bottomLine{
+    position: fixed;
+    bottom: 0;
+    justify-content: right;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
